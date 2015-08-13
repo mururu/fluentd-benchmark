@@ -22,4 +22,4 @@ bundle exec fluentd -c format_nsec.conf
 
 200000 rate of writing (lines/sec)
 
-This result meens that the bottleneck in this case is not formatting time.
+This results means that the bottleneck in this case is not formatting time.
