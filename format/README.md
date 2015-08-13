@@ -16,10 +16,10 @@ bundle exec fluentd -c format_nsec.conf
 
 * cache
 
-200000 ra of writing (lines/sec)
+200000 rate of writing (lines/sec)
 
 * no cache
 
-200000 ra of writing (lines/sec)
+200000 rate of writing (lines/sec)
 
-The bottolnek in this case is not time format.
+This result meens that the bottleneck in this case is not formatting time.
