@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ## for new
 gem 'msgpack', github: 'msgpack/msgpack-ruby'
 gem 'fluentd', github: 'mururu/fluentd', branch: 'support-nanosecond'
-gem 'fluent-logger', path: '/Users/yuki_ito/git/fluent-logger-ruby'
+gem 'fluent-logger', github: 'mururu/msgpack-ruby'
 gem 'dummer', '0.4.0'
 gem 'fluent-plugin-flowcounter-simple'
 
