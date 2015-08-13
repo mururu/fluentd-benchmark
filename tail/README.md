@@ -15,7 +15,15 @@ bundle exec dummer -c dummer_nsec.conf
 
 ### Result
 
-cache
+* machine spec
+
+ * CPU Core i5 5250U
+ * Memory 8GB
+ * Disc SSD 256G
+ * OS OSX Yosemite
+
+
+* cache
 
 |   |    current     |        new   |
 |----------------------------------|------------------------|-------------------|
@@ -25,7 +33,7 @@ cache
 | 100000                            | near 100              |           near 100 |
 | 150000                            | 100                      |               100 |
 
-no cache
+* no cache
 
 |   |    current     |        new   |
 |----------------------------------|------------------------|-------------------|
