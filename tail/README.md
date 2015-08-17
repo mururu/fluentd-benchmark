@@ -42,3 +42,13 @@ bundle exec dummer -c dummer_nsec.conf
 | 3000                              |  40-70                  |            40-80 |
 | 4000                            | near 100              |           near 100|
 | 5000                            | 100                      |               100 |
+
+* no cache (strptime version)
+
+|   |    strptime gem version     |
+|----------------------------------|------------------------|
+| rate of writing (lines/sec) | CPU(%)  |
+| 10000                         |  10                  |
+| 50000                            | 30-60              |
+| 100000                            | near 100                      |
+| 110000                            | 100                      |

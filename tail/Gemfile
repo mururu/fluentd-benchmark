@@ -1,11 +1,20 @@
 source 'https://rubygems.org'
 
-## for new
+## for strptime gem version
+gem 'strptime', github: 'nurse/strptime'
 gem 'msgpack', github: 'msgpack/msgpack-ruby'
-gem 'fluentd', github: 'mururu/fluentd', branch: 'support-nanosecond'
-gem 'fluent-logger', github: 'mururu/msgpack-ruby'
+gem 'fluentd', github: 'mururu/fluentd', branch: 'strptime-gem'
+gem 'fluent-logger', github: 'mururu/fluent-logger-ruby'
 gem 'dummer', '0.4.0'
 gem 'fluent-plugin-flowcounter-simple'
+
+## for new
+#gem 'strptime', github: 'nurse/strptime'
+#gem 'msgpack', github: 'msgpack/msgpack-ruby'
+#gem 'fluentd', github: 'mururu/fluentd', branch: 'support-nanosecond'
+#gem 'fluent-logger', github: 'mururu/fluent-logger-ruby'
+#gem 'dummer', '0.4.0'
+#gem 'fluent-plugin-flowcounter-simple'
 
 ## for mater
 #gem 'fluentd'
